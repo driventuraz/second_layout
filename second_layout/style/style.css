@@ -1,0 +1,221 @@
+@import "fonts.css";
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Sans';
+    margin: 0;
+    padding: 0;
+}
+.header {
+    font-family: "PT Sans";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    height: 230px;
+    background-color: lightgrey;
+    margin: auto;
+
+
+}
+.wrapper{
+    display: flex;
+    align-items: column;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.logo {
+    margin-left: 210px;
+    height: 100px;
+    width: 273px;
+}
+
+.telnumber {
+    font-family:"PT Sans";
+    color: #767676;
+    font-size: 30px;
+    margin-right: 211px;
+    width: 256px;
+    height: 81px;
+}
+
+.number1{
+    font-family: "PT Sans";
+    color: #767676;
+    text-decoration: none;
+}
+
+.number2{
+    font-family: "PT Sans";
+    color: #767676;
+    text-decoration: none
+}
+
+.wrapper2 {
+    width: 100%;
+    background-color: dimgrey;
+}
+.menu {
+    margin: auto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 80px;
+    background-color: dimgrey
+
+}
+
+a.menu_top:not(:first-child):before {content: "|" }
+.menu a {
+    text-decoration: none;
+    color : #ffffff;
+}
+
+a.menu_top2:hover{
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+
+}
+
+a.menu_top:hover {
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.wrapper3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+ .logo2 {
+    margin-top: -62px;
+    width: 1248px;
+    height: 462px;
+    display: block;
+ }
+
+ .news{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    min-height: 200px;
+    height: 100%;
+    letter-spacing: 0.025em;
+    padding-left: 25px;
+    margin-left: 210px;
+    margin-top: 30px;
+    margin-right: 60px;
+    padding-bottom: 50px;
+    width: 350px;
+    background-color: dimgray;
+    color: white;
+
+ }
+
+.zagolovok {
+    width: 265px;
+    height: 372px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+}
+.zagolovok2 {
+    padding-bottom: 25px;
+}
+
+ .url2{
+    color:white;
+    text-decoration: none;
+ }
+
+ .url3 {
+    color: white;
+    text-decoration: underline;
+    display: block;
+    margin: 25px ;
+    padding-left: 145px;
+
+ }
+
+ .maintext {
+    line-height: 22px;
+    margin-top: 22px;
+    margin-right: 176px;
+    width: 569px;
+    height: 493px;
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 14px;
+ }
+ .zagolovok2{
+    font-size: 30px;
+ }
+ .content{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: auto;
+
+
+ }
+ .footer {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    width: auto;
+    background-color: dimgray;
+    margin-top: 195px;
+    color: white;
+
+ }
+
+ .podval {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1400px;
+    height: 200px;
+    background-color: dimgray;
+
+
+ }
+
+
+ .footer_menu {
+    padding-right: 90px ;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    list-style-type: none;
+ }
+ .footer_logo {
+     margin-right: 7px ;
+     padding-top: 8px;
+ }
+
+ .logo3 {
+    padding-top: 18px;
+    width: 36px;
+    height: 38px;
+ }
+.footertext2 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
